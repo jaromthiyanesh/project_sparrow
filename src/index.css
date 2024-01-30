@@ -1,0 +1,48 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.container {
+  width: 450px;
+  margin: 50px auto;
+  border: 2px solid gray;
+  border-radius: 16px;
+  box-shadow: 10px 10px 10px 10px;
+}
+.head {
+  width: 100%;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  height: 200px;
+  margin-bottom: 100px;
+  position: relative;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.btn {
+  width: 150px;
+  background-color: yellow;
+  color: black;
+  padding: 10px;
+  border-radius: 25px;
+  margin: 10px auto;
+}
+.user {
+  border-radius: 50%;
+  position: absolute;
+  top: 200px;
+  right: 655px;
+}
+.para {
+  padding: 10px 30px;
+}
+.icon {
+  position: absolute;
+  right: 0;
+  left: 350px;
+  top: 270px;
+}
